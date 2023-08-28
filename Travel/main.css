@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 135px;
+}
+
+.nav-links a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000;
+    opacity: 0.5;
+    margin-left: 40px;
+
+}
+
+.nav-links a:hover {
+    color: #000;
+    opacity: 1;
+    font-weight: bold;
+}
+
+header {
+    background-image: url(./rasmlar/hero-banner\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+
+    <div class="container">
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    height: 326px;
+    width: 326px;
+    background: #F8F8F8;
+}
+
+.btn {
+    background-color: #FF715B;
+    padding: 12px;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.last-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #A6F2F2 0%, #DDF181 100%);
+    padding: 50px;
+    width: 100%;
+}
+
+.last-section div:first-child {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+}
+
+.last-section div:first-child h1 {
+    color: #2C2C2C;
+    font-family: Noto Serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.last-section div:last-child {
+    /* margin-left: -500px; */
+}
+
+.q{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrapx;
+}
